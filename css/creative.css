@@ -3,7 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+@import url('Normalize.css');
 html,
 body {
     width: 100%;
@@ -21,7 +21,7 @@ hr {
 }
 
 hr.light {
-    border-color: #fff;
+    border-color: #000;
 }
 
 a {
@@ -61,7 +61,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,1);
 }
 
 section {
@@ -70,6 +70,10 @@ section {
 
 aside {
     padding: 50px 0;
+}
+
+.noBlanc{
+    color: #fff;
 }
 
 .no-padding {
