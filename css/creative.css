@@ -51,6 +51,14 @@ p {
     line-height: 1.5;
 }
 
+.staffI{
+    border-radius: 75px;
+}
+.service-box img{
+    width: 150px;
+    height: 150px;
+}
+
 .bg-primary {
     background-color: #f05f40;
 }
