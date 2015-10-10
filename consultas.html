@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Adopta a un amigo</a>
+                <a class="navbar-brand page-scroll" href="index.html">Adopta a un amigo</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -74,17 +74,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 class="noBlanc">No compres a un amigo haste amigo de el!</h1>
-                <hr>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Conoce nuestra labor</a>
-            </div>
-        </div>
-    </header>
-
-    <section id="DatosCuenta">
+    <section class="bg-primary" id="DatosCuenta">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -97,9 +87,12 @@
             <div class="formulario">
                 <FORM action="php/contacto.php" method="post">
                 <P>
-                Nombre completo: <INPUT type="text" name="nombre"><BR>
+                <label for="name">Nombre completo:</label>
+                <label for=""></label>
+                <INPUT type="text" name="nombre"><BR>
                 email: <INPUT type="text" name="email"><BR>
                 <INPUT type="submit" value="Enviar"> <INPUT type="reset">
+                <INPUT type="password">
                 </P>
              </FORM>
             </div>
